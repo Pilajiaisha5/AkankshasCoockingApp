@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salad.AmericanCornSalad">
+
+    <ImageView
+        android:layout_width="285dp"
+        android:layout_height="186dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/americancorn"
+        app:srcCompat="@drawable/american_corn_salad"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="205dp"
+        android:text="@string/samgri"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="134dp"
+        android:layout_marginStart="43dp"
+        android:text="@string/discription4"
+
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="95dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/vidhi"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="16dp"
+        android:text="@string/discription5"
+
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+
+</RelativeLayout>

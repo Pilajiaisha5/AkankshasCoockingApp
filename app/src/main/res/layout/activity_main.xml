@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chutney.Chatni">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="34sp"/>
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:padding="14dp"
+            >
+
+
+            <!--Row1-->
+            <!--Column1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="सलाद और रायता "
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <Button
+
+                        android:id="@+id/saladButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="103dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/salad" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--Column2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="चटनी"
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <Button
+                        android:id="@+id/chatniButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/chatni" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--Row2-->
+            <!--Column1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/breakfastButton"
+                        android:layout_width="134dp"
+                        android:layout_height="97dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/unnamed" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:text="नाश्ता "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <!--Column2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="152dp"
+                    android:layout_height="26dp"
+                    android:text="अचार "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/accharButton"
+                        android:layout_width="141dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/achhar" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--Row3-->
+            <!--Column1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:text="पराठे / थालीपीठ  "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="145dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/parathaRotiButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/images" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--Column2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/fastingfoodButton"
+                        android:layout_width="154dp"
+                        android:layout_height="101dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/fastingfood" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="व्रत का फलहार "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+            </android.support.v7.widget.CardView>
+
+            <!--Row4-->
+            <!--Column1-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="142dp"
+                        android:layout_height="83dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/roti" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="रोटी "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <!--Column2-->
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/hare_mirch_chutney"
+                        android:layout_width="136dp"
+                        android:layout_height="74dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/sabjii" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="सब्जी"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/chana_dal_chutney"
+                        android:layout_width="139dp"
+                        android:layout_height="95dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/rice" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:text="राइस रेसिपी "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/raw_tamatar_chutney"
+                        android:layout_width="match_parent"
+                        android:layout_height="99dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/sweets" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="स्वीट डिश "
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
